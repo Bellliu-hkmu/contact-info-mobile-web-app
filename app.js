@@ -19,6 +19,7 @@ function initialize() {
             "online",
             function () {
                 document.getElementById("status").innerHTML = "Online";
+                console.log("online");
             },
             false
             );
@@ -26,6 +27,7 @@ function initialize() {
             "offline",
             function () {
                 document.getElementById("status").innerHTML = "Offline";
+                console.log("offline");
             },
             false
             );
